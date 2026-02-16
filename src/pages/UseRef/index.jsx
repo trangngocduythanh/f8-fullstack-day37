@@ -2,7 +2,7 @@ import { useRef } from "react";
 import TextInput from "@/components/TextInput";
 import NewTextInput from "@/components/NewTextInput";
 
-function UseRefPage() {
+function UseRef() {
   const clickCountRef = useRef(0);
   const inputRef = useRef(null);
   const newInputRef = useRef(null);
@@ -79,4 +79,4 @@ function UseRefPage() {
   );
 }
 
-export default UseRefPage;
+export default UseRef;

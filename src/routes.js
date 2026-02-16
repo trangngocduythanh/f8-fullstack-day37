@@ -11,6 +11,7 @@ const routes = [
   {
     layout: DefaultLayout,
     children: [
+      { path: paths.home, component: EditAvatar },
       { path: paths.editAvatar, component: EditAvatar },
       { path: paths.useRef, component: UseRef },
       { path: paths.reactMemo, component: ReactMemo },
